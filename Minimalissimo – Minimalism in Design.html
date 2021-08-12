@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html class="home" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=5.0">
+    <meta name="theme-color" content="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-config" content="https://minimalissimo.com/assets/favicons/browserconfig.xml">
+
+    <!-- Preload the fonts -->
+    <link rel="preload" href="https://minimalissimo.com/assets/css/fonts/Inter.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <!-- Manifest site -->
+    <link rel="manifest" href="https://minimalissimo.com/assets/favicons/site.webmanifest">
+        
+    <!-- Social Images -->
+    <meta content="https://minimalissimo.com/assets/images/twitter.jpg" itemprop="image">
+    <meta content="https://minimalissimo.com/assets/images/twitter.jpg" name="twitter:image">
+    <meta content="https://minimalissimo.com/assets/images/facebook.jpg" property="og:image">
+    
+    <!-- Titles -->
+    <meta content="Minimalissimo – Minimalism in Design" itemprop="name">
+    <meta content="Minimalissimo – Minimalism in Design" name="twitter:title">
+    <meta content="Minimalissimo – Minimalism in Design" property="og:title">
+    <meta content="Minimalissimo" property="og:site_name">
+
+    <!-- Descriptions -->
+    <meta content="Minimalissimo magazine is a celebration of minimalism in design. We aim to inspire creatives and showcase the finest examples of architecture, …" name="description">
+    <meta content="Minimalissimo magazine is a celebration of minimalism in design. We aim to inspire creatives and showcase the finest examples of architecture, …" itemprop="description">
+    <meta content="Minimalissimo magazine is a celebration of minimalism in design. We aim to inspire creatives and showcase the finest examples of architecture, …" name="twitter:description">
+    <meta content="Minimalissimo magazine is a celebration of minimalism in design. We aim to inspire creatives and showcase the finest examples of architecture, …" property="og:description">
+
+    <!-- Twitter:extra -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@minimalissimo">
+
+    <!-- Facebook:extra -->
+    <meta property="og:url" content="https://minimalissimo.com">
+    <meta property="og:type" content="website">
+
+    <!-- Page Title -->
+    <title>Minimalissimo – Minimalism in Design</title>    
+    <!-- Favicons Icons -->  
+    <link rel="apple-touch-icon" href="https://minimalissimo.com/assets/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="https://minimalissimo.com/assets/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="https://minimalissimo.com/assets/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="https://minimalissimo.com/assets/favicons/safari-pinned-tab.svg" color="#23372d">
+    <link rel="shortcut icon" href="https://minimalissimo.com/assets/favicons/favicon.ico">
+
+    <script async="" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/analytics.js"></script><script src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/js.js"></script><script src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/cookie.js"></script><script src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/setColorScheme.js"></script><script src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/toggleColorScheme.js"></script>
+    <!-- RSS Links -->
+    <link rel="alternate" type="application/rss+xml" href="https://minimalissimo.com/feed/rss" title="Minimalissimo RSS Feed">
+    <link rel="alternate" type="application/json" href="https://minimalissimo.com/feed/json" title="Minimalissimo JSON Feed">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-23388836-1', 'auto');
+    ga('send'  , 'pageview');
+    ga('set'   , 'anonymizeIp', true);
+    </script>
+
+    <!-- Stylesheet -->
+    <link href="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/main.css" rel="stylesheet">
+</head>
+<body class="home">
+    <header class="header">
+        <div class="header-inner border-bottom">
+            <a class="header-home" href="https://minimalissimo.com/" aria-label="Homepage">
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 52"><path d="M52.8959305 51H46v-7l7-13-.1040695 20zM0 0h7v51H0V0zm24 44l3 8L53 0h-7L24 44z"></path></svg>
+            </a>
+
+            <button class="header-btn btn-scheme" onclick="mimoToggleColorScheme()" aria-label="Reading Mode">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                    <circle class="outer" cx="10" cy="10" r="8"></circle>
+                    <circle class="inner" cx="10" cy="10" r="6"></circle>
+                </svg>
+            </button>
+
+            <button class="header-btn btn-search" aria-label="Search">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22"><path fill-rule="nonzero" d="M14.906 16.32a8 8 0 1 1 1.414-1.414l3.751 3.751-1.414 1.414-3.751-3.751zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"></path></svg>
+            </button>
+
+        <form class="search-form" action="https://minimalissimo.com/search" method="get">
+    <input type="search" name="s" id="s" class="search-input border-around" required="" placeholder="Search…">
+    <button class="search-submit" type="submit" aria-label="Search Submit">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22"><path fill-rule="nonzero" d="M14.906 16.32a8 8 0 1 1 1.414-1.414l3.751 3.751-1.414 1.414-3.751-3.751zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"></path></svg>
+    </button>
+</form>
+
+        </div>
+    </header>
+
+    <div class="menu">
+    <button class="menu-btn border-bottom" onclick="document.querySelector('.menu').classList.toggle('is-open')" aria-label="Light/Dark Mode">Menu</button>
+    <nav class="menu-inner border-bottom">
+    <a class=" menu-item" href="https://minimalissimo.com/architecture" target="_self">Architecture</a><a class=" menu-item" href="https://minimalissimo.com/interiors" target="_self">Interiors</a><a class=" menu-item" href="https://minimalissimo.com/furniture" target="_self">Furniture</a><a class=" menu-item" href="https://minimalissimo.com/homewares" target="_self">Homewares</a><a class=" menu-item" href="https://minimalissimo.com/moods" target="_self">Moods</a><a class=" menu-item" href="https://minimalissimo.com/creators" target="_self">Conversations</a><a class=" menu-item" href="https://minimalissimo.shop/" rel="noopener noreferrer" target="_blank">Shop</a><a class=" menu-item" href="https://minimalissimo.com/about" target="_self">About</a>    </nav>
+</div>
+<main class="grid" data-infinite-scroll="{ &quot;path&quot;: &quot;/home/page:{{#}}/&quot;, &quot;append&quot;: &quot;main .thumbnail&quot;, &quot;history&quot;: &quot;replace&quot;,&quot;button&quot; : &quot;.loadmore-button&quot;, &quot;scrollThreshold&quot;: &quot;false&quot; }">
+    
+<article class="thumbnail thumbnail-featured" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/handvark-lounge-chair" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 600px) 504px,(max-width: 935px) 702px,750px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/handvark-lounge-chair-minimalissimo-3b_007.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/handvark-lounge-chair-minimalissimo-3b_008.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/handvark-lounge-chair-minimalissimo-3b_005.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/handvark-lounge-chair-minimalissimo-3b_002.jpg 702w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/handvark-lounge-chair-minimalissimo-3b.jpg 750w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/handvark-lounge-chair-minimalissimo-3b_009.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/handvark-lounge-chair-minimalissimo-3b_003.jpg 1008w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/handvark-lounge-chair-minimalissimo-3b_006.jpg 1404w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/handvark-lounge-chair-minimalissimo-3b_004.jpg 1500w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/handvark-lounge-chair">HANDVÄRK Lounge Chair</a></h1>
+            <div class="thumbnail-text"><p>Emil Thorup’s minimalist 
+lounge chair design was the first chair in HANDVÄRK’s collection. It 
+features a slim and geometric profile with perfect proportions, yet is 
+surprisingly comfortable. This inviting chair is beautiful alone and 
+arguably perfect as a pair.</p></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="square">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.shop/product/minimalissimo-backpack" class="thumbnail-holder" aria-label="View Feature" target="_blank">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 400px,(max-width: 844px) 268px,336px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/oda-hop-backpack-black3_002.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/oda-hop-backpack-black3_004.jpg 268w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/oda-hop-backpack-black3_002.jpg 336w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/oda-hop-backpack-black3.jpg 536w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/oda-hop-backpack-black3_003.jpg 672w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.shop/product/minimalissimo-backpack" target="_blank">Minimalissimo Backpack</a></h1>
+            <div class="thumbnail-text">$125.00</div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/casa-m" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 844px) 402px,504px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/vvda-casa-m-1_004.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/vvda-casa-m-1_004.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/vvda-casa-m-1.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/vvda-casa-m-1_002.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/vvda-casa-m-1_003.jpg 1008w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/casa-m">Casa M</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/architecture">Architecture</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/moods/superlative-sound" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 844px) 402px,504px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/superlative-sound-minimalissimo-3b_003.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/superlative-sound-minimalissimo-3b_003.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/superlative-sound-minimalissimo-3b_002.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/superlative-sound-minimalissimo-3b.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/superlative-sound-minimalissimo-3b_004.jpg 1008w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/moods/superlative-sound">Superlative Sound</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/moods">Moods</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/t-house-revisited" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 844px) 402px,504px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/t-house-minimalissimo-5_004.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/t-house-minimalissimo-5_004.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/t-house-minimalissimo-5_002.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/t-house-minimalissimo-5.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/t-house-minimalissimo-5_003.jpg 1008w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/t-house-revisited">T-House Revisited</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/architecture">Architecture</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/compostra-headquarters" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 844px) 402px,504px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/compostraheadquarter_mrmarquitectos_004.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/compostraheadquarter_mrmarquitectos_004.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/compostraheadquarter_mrmarquitectos_002.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/compostraheadquarter_mrmarquitectos.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/compostraheadquarter_mrmarquitectos_003.jpg 1008w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/compostra-headquarters">Compostra Headquarters</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/architecture">Architecture</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/moods/de-mo-headphones" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 844px) 402px,504px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/de-mo-headphones-5_004.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/de-mo-headphones-5_004.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/de-mo-headphones-5.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/de-mo-headphones-5_002.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/de-mo-headphones-5_003.jpg 1008w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/moods/de-mo-headphones">DE-MO Headphones</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/moods">Moods</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="portrait">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/moods/shades-of-vipp" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 400px,(max-width: 844px) 268px,336px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/shades-of-vipp-minimalissimo-7_004.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/shades-of-vipp-minimalissimo-7_005.jpg 268w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/shades-of-vipp-minimalissimo-7.jpg 336w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/shades-of-vipp-minimalissimo-7_002.jpg 536w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/shades-of-vipp-minimalissimo-7_003.jpg 672w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/moods/shades-of-vipp">Shades of Vipp</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/moods">Moods</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/house-p5" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 844px) 402px,504px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/think-utopia-javier-muller-house-p-minimalissimo-2_004.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/think-utopia-javier-muller-house-p-minimalissimo-2_004.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/think-utopia-javier-muller-house-p-minimalissimo-2_002.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/think-utopia-javier-muller-house-p-minimalissimo-2.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/think-utopia-javier-muller-house-p-minimalissimo-2_003.jpg 1008w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/house-p5">House P5</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/interiors">Interiors</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="square">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/moods/extruded-marble" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 400px,(max-width: 844px) 268px,336px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/extruded-chair-marc-newson-02_002.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/extruded-chair-marc-newson-02_004.jpg 268w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/extruded-chair-marc-newson-02_002.jpg 336w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/extruded-chair-marc-newson-02.jpg 536w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/extruded-chair-marc-newson-02_003.jpg 672w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/moods/extruded-marble">Extruded Marble</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/moods">Moods</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/courthouse-of-kawachinagano" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 844px) 402px,504px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/c_kawachinagano01-minimalissimo_004.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/c_kawachinagano01-minimalissimo_004.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/c_kawachinagano01-minimalissimo_002.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/c_kawachinagano01-minimalissimo.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/c_kawachinagano01-minimalissimo_003.jpg 1008w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/courthouse-of-kawachinagano">Courthouse of Kawachinagano</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/architecture">Architecture</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="portrait">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/tylko-type02" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 400px,(max-width: 844px) 268px,336px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/ty_sh110_type02-mb-1_004.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/ty_sh110_type02-mb-1_005.jpg 268w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/ty_sh110_type02-mb-1_002.jpg 336w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/ty_sh110_type02-mb-1.jpg 536w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/ty_sh110_type02-mb-1_003.jpg 672w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/tylko-type02">Tylko Type02 in Matte Black</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/furniture">Furniture</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="portrait">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/moods/minimal-pools" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 400px,(max-width: 844px) 268px,336px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/architect-steven-vandenborre_1edit_004.jpeg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/architect-steven-vandenborre_1edit_005.jpeg 268w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/architect-steven-vandenborre_1edit_002.jpeg 336w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/architect-steven-vandenborre_1edit.jpeg 536w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/architect-steven-vandenborre_1edit_003.jpeg 672w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/moods/minimal-pools">Minimal Pools</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/moods">Moods</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/gagosian-extruded-tables" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 844px) 402px,504px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/extruded-table_06_004.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/extruded-table_06_004.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/extruded-table_06_003.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/extruded-table_06.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/extruded-table_06_002.jpg 1008w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/gagosian-extruded-tables">Extruded Tables</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/furniture">Furniture</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/house-in-sakura" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 844px) 402px,504px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/tokudaction_houseinsakura_6_featuredimage_002.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/tokudaction_houseinsakura_6_featuredimage_002.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/tokudaction_houseinsakura_6_featuredimage.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/tokudaction_houseinsakura_6_featuredimage_004.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/tokudaction_houseinsakura_6_featuredimage_003.jpg 1008w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/house-in-sakura">House in Sakura</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/architecture">Architecture, Interiors</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/harlosh-black-house" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 844px) 402px,504px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/harlosh-6_004.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/harlosh-6_004.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/harlosh-6_002.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/harlosh-6.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/harlosh-6_003.jpg 1008w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/harlosh-black-house">Harlosh Black House</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/architecture">Architecture</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="portrait">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/moods/workspace-fundamentals" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 400px,(max-width: 844px) 268px,336px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/workspace-fundamentals-3_004.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/workspace-fundamentals-3_005.jpg 268w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/workspace-fundamentals-3_002.jpg 336w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/workspace-fundamentals-3.jpg 536w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/workspace-fundamentals-3_003.jpg 672w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/moods/workspace-fundamentals">Workspace Fundamentals</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/moods">Moods</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/villa-ra" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 844px) 402px,504px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/villa-ra-marq-minimalissimo-2_004.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/villa-ra-marq-minimalissimo-2_004.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/villa-ra-marq-minimalissimo-2.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/villa-ra-marq-minimalissimo-2_002.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/villa-ra-marq-minimalissimo-2_003.jpg 1008w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/villa-ra">Villa RA</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/architecture">Architecture</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="portrait">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/primo" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 400px,(max-width: 844px) 268px,336px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/mattiazzi_primo_konstantingrcic_5_005.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/mattiazzi_primo_konstantingrcic_5_004.jpg 268w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/mattiazzi_primo_konstantingrcic_5.jpg 336w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/mattiazzi_primo_konstantingrcic_5_003.jpg 536w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/mattiazzi_primo_konstantingrcic_5_002.jpg 672w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/primo">Primo</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/furniture">Furniture</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="portrait">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/moods/at-the-limit-of-visibility" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 400px,(max-width: 844px) 268px,336px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/deprezzo_2_visibility_005.jpeg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/deprezzo_2_visibility_004.jpeg 268w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/deprezzo_2_visibility.jpeg 336w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/deprezzo_2_visibility_003.jpeg 536w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/deprezzo_2_visibility_002.jpeg 672w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/moods/at-the-limit-of-visibility">At the Limit of Visibility</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/moods">Moods</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/ns-residence" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 844px) 402px,504px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/michellewentworth_nsresidence_1-copy_004.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/michellewentworth_nsresidence_1-copy_004.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/michellewentworth_nsresidence_1-copy.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/michellewentworth_nsresidence_1-copy_002.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/michellewentworth_nsresidence_1-copy_003.jpg 1008w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/ns-residence">NS Residence</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/interiors">Interiors</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="portrait">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/moods/aesthek-modern-objects" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 400px,(max-width: 844px) 268px,336px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/aesthek-modern-objects-minimalissimo-7_005.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/aesthek-modern-objects-minimalissimo-7_004.jpg 268w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/aesthek-modern-objects-minimalissimo-7_002.jpg 336w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/aesthek-modern-objects-minimalissimo-7.jpg 536w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/aesthek-modern-objects-minimalissimo-7_003.jpg 672w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/moods/aesthek-modern-objects">Aesthek Modern Objects</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/moods">Moods</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/atic-blanc" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 844px) 402px,504px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/atic-blanc-fran-silvestre-minimalissimo-10_002.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/atic-blanc-fran-silvestre-minimalissimo-10_002.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/atic-blanc-fran-silvestre-minimalissimo-10_004.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/atic-blanc-fran-silvestre-minimalissimo-10.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/atic-blanc-fran-silvestre-minimalissimo-10_003.jpg 1008w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/atic-blanc">ÀTIC BLANC</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/architecture">Architecture</a></div>
+        </figcaption>
+    </figure>
+</article>
+    
+<article class="thumbnail" data-orientation="landscape">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.com/articles/ca-l-amo" class="thumbnail-holder" aria-label="View Feature" rel="noreferrer">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 100%,(max-width: 844px) 402px,504px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/ca-lamo_ibiza_minimalissimo-8_004.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/ca-lamo_ibiza_minimalissimo-8_004.jpg 402w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/ca-lamo_ibiza_minimalissimo-8.jpg 504w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/ca-lamo_ibiza_minimalissimo-8_002.jpg 804w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/ca-lamo_ibiza_minimalissimo-8_003.jpg 1008w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.com/articles/ca-l-amo">Ca l'Amo</a></h1>
+            <div class="thumbnail-text"><a href="https://minimalissimo.com/architecture">Architecture</a></div>
+        </figcaption>
+    </figure>
+</article>
+</main><nav class="shop">
+    <div class="shop-inner border-top">
+        <h2 class="shop-title">From the Shop</h2>
+                    
+<article class="thumbnail" data-orientation="square">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.shop/product/planter-3d-model" class="thumbnail-holder" aria-label="View Feature" target="_blank">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 400px,(max-width: 844px) 268px,336px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/planter-3_002.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/planter-3_004.jpg 268w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/planter-3_002.jpg 336w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/planter-3.jpg 536w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/planter-3_003.jpg 672w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.shop/product/planter-3d-model" target="_blank">Planter (3D Model)</a></h1>
+            <div class="thumbnail-text">$8.00</div>
+        </figcaption>
+    </figure>
+</article>
+                    
+<article class="thumbnail" data-orientation="square">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.shop/product/hidden-wallpapers" class="thumbnail-holder" aria-label="View Feature" target="_blank">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 400px,(max-width: 844px) 268px,336px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/hidden-walls-preview-1_002.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/hidden-walls-preview-1_004.jpg 268w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/hidden-walls-preview-1_002.jpg 336w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/hidden-walls-preview-1.jpg 536w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/hidden-walls-preview-1_003.jpg 672w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.shop/product/hidden-wallpapers" target="_blank">Hidden Wallpapers</a></h1>
+            <div class="thumbnail-text">$6.00</div>
+        </figcaption>
+    </figure>
+</article>
+                    
+<article class="thumbnail" data-orientation="square">
+    <figure class="thumbnail-container">
+        <a href="https://minimalissimo.shop/product/jug-3d-model" class="thumbnail-holder" aria-label="View Feature" target="_blank">
+            <img alt="" class="thumbnail-image" sizes="(max-width: 446px) 400px,(max-width: 844px) 268px,336px" src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/1b_002.jpg" srcset="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/1b_004.jpg 268w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/1b_002.jpg 336w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/1b.jpg 536w, Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/1b_003.jpg 672w">        </a>
+        <figcaption class="thumbnail-info">
+            <h1 class="thumbnail-title"><a class="thumbnail-link" href="https://minimalissimo.shop/product/jug-3d-model" target="_blank">Jug (3D Model)</a></h1>
+            <div class="thumbnail-text">$8.00</div>
+        </figcaption>
+    </figure>
+</article>
+            </div>
+</nav><nav class="archives">
+    <div class="archives-inner border-top">
+        <h2 class="archives-title">Support What We Do</h2>
+        <a class="button archives-button" href="https://minimalissimo.com/membership">Become a Member</a>
+
+            </div>
+</nav>    <section class="newsletter">
+    <div class="newsletter-container border-top">
+        <form class="newsletter-form embeddable-buttondown-form" action="https://buttondown.email/api/emails/embed-subscribe/minimalissimo" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/minimalissimo', 'popupwindow')">
+            <input id="bd-email" name="email" type="email" class="newsletter-input" placeholder="Subscribe to the newsletter">
+            <label class="newsletter-label" for="bd-email">Email Address</label>
+            <input type="hidden" value="1" name="embed">
+            <input type="submit" value="→" class="newsletter-btn">
+        </form>
+    </div>
+</section>
+<section class="s">
+    <div class="s-inner border-top">
+    <figure class="s-container">
+    <a class="s-link" target="_blank" aria-label="Visit Sponsor" href="https://minimalissimo.com/sponsor/handvaerk?ref=minimalissimo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 68"><path fill-rule="evenodd" d="M161.86 29.094c1.575-2.28 3.426-3.436 5.5-3.436.51 0 1.06.05 1.646.147v3.6c-.54-.14-1.29-.213-2.233-.213-1.963 0-3.667 1.04-5.065 3.09l-.016.025v15.088h-3.635V26.143h3.635v3.19l.167-.24zm19.265 4.926l8.896 13.375h-4.32l-6.94-10.847-.06-.095-2.49 2.47v8.472h-3.63V17.96h3.64v16.925l8.4-8.742h4.55l-7.96 7.822-.052.055zM40.89 15a4.366 4.366 0 014.362 4.36 4.367 4.367 0 01-4.36 4.362 4.366 4.366 0 01-4.362-4.36A4.366 4.366 0 0140.89 15zm0 6.476c1.167 0 2.115-.95 2.115-2.115 0-1.16-.948-2.11-2.114-2.11a2.119 2.119 0 00.01 4.24zm-20.76 4.182c4.753 0 7.163 2.627 7.163 7.808v13.93h-3.636v-13.77c0-1.763-.323-3.053-.96-3.834-.64-.787-1.702-1.185-3.152-1.185-1.958 0-3.94 1.166-5.888 3.467l-.02.025v15.29H10V17.96h3.636v11.06l.16-.18c1.872-2.112 4.003-3.182 6.335-3.182zm27.808 1.62c1.502 1.067 2.264 3.203 2.264 6.35v13.767h-3.615v-2.32l-.154.143C44.52 46.998 42.02 47.9 39 47.9c-2.096 0-3.843-.574-5.194-1.706-1.345-1.128-2.028-2.603-2.028-4.385 0-4.93 4.327-7.43 12.86-7.43h1.95v-.09c0-1.54-.084-2.67-.246-3.37-.166-.72-.635-1.32-1.394-1.79-.753-.47-1.958-.7-3.584-.7-3.395 0-5.19 1.22-5.34 3.63h-3.612c.317-4.26 3.396-6.42 9.154-6.42 2.716 0 4.86.54 6.372 1.62zm-1.35 14.6V37.01h-2.7c-5.555 0-8.373 1.547-8.373 4.598 0 1.116.42 1.987 1.25 2.59.82.593 1.94.895 3.326.895 1.27 0 2.5-.29 3.68-.858 1.18-.57 2.13-1.355 2.81-2.333l.02-.024zm18.833-16.22c4.76 0 7.17 2.627 7.17 7.808v13.93h-3.64v-13.77c0-1.763-.32-3.053-.96-3.834-.64-.787-1.7-1.185-3.15-1.185-1.96 0-3.94 1.166-5.89 3.467l-.02.025v15.29h-3.64V26.14h3.64v2.876l.16-.18c1.87-2.113 4.01-3.183 6.34-3.183zm14.09 3.03c1.69-2.01 3.85-3.03 6.41-3.03 2.29 0 4.24.712 5.82 2.12l.15.134v-9.95h3.61v29.433h-3.62v-2.728l-.16.195c-1.67 2.016-3.7 3.038-6.05 3.038-2.76 0-4.92-.994-6.43-2.955-1.51-1.968-2.28-4.66-2.28-8.005 0-3.463.86-6.24 2.56-8.253zm12.35 2.392c-1.65-1.75-3.57-2.635-5.7-2.635-1.65 0-2.99.724-3.98 2.15-.98 1.416-1.48 3.55-1.48 6.345 0 2.646.47 4.687 1.4 6.062.94 1.388 2.25 2.09 3.91 2.09 2.15 0 4.13-1.25 5.87-3.715l.02-.023v-10.25l-.02-.024zm11.16-4.937l5.75 16.96 5.74-16.96h3.93l-8.03 21.252h-3.27L99.1 26.143h3.924zm40.85-.485c2.99 0 5.39.972 7.13 2.89 1.74 1.92 2.62 4.69 2.62 8.23v.82h-15.56l.01.096c.15 2.475.8 4.345 1.92 5.56 1.12 1.22 2.57 1.84 4.3 1.84 1.32 0 2.51-.35 3.53-1.037 1.02-.678 1.57-1.648 1.65-2.883h3.75c-.31 2.136-1.273 3.803-2.87 4.955-1.623 1.17-3.662 1.77-6.054 1.77-3.654 0-6.416-1.38-8.206-4.1l-.08-.12-.076.12c-.73 1.19-1.75 2.18-3.04 2.95-1.283.76-3.24 1.15-5.81 1.15-2.08 0-3.79-.57-5.08-1.7-1.285-1.12-1.94-2.6-1.94-4.4 0-4.93 4.185-7.43 12.435-7.43h1.97v-.09c0-1.3-.1-2.35-.288-3.14-.194-.8-.66-1.46-1.39-1.97-.726-.5-1.85-.754-3.344-.754-3.18 0-4.91 1.225-5.134 3.64H120.7c.342-4.26 3.353-6.424 8.952-6.424 3.623 0 6.08.906 7.294 2.69l.06.094.08-.08c1.728-1.79 4.016-2.7 6.806-2.7zm-5.74 9.13h11.67l-.01-.104c-.62-4.14-2.61-6.24-5.91-6.24-3.23 0-5.15 2.1-5.72 6.24l-.01.105zm-3.68 3.85V37.01h-2.69c-5.29 0-7.97 1.547-7.97 4.598 0 2.312 1.47 3.485 4.36 3.485 1.9 0 3.45-.552 4.59-1.642 1.15-1.09 1.73-2.71 1.73-4.81z"></path></svg>    </a>
+    <figcaption class="s-tagline">Perfect Basics</figcaption>
+</figure>
+<figure class="s-container">
+    <a class="s-link" target="_blank" aria-label="Visit Sponsor" href="https://minimalissimo.com/sponsor/aether?ref=minimalissimo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 68"><path fill-rule="nonzero" d="M70.837 26.163c5.913 0 11.092 4.092 11.081 11.838v.34h-18.23v.597c.042 6.745 2.067 12.072 8.374 12.072 4.422 0 7.48-2.43 8.588-6.116h.959c-1.119 4.198-4.805 7.096-10.133 7.096-7.586 0-12.125-5.615-12.125-13.062 0-8.28 5.626-12.765 11.486-12.765zm75.063 0c5.914 0 11.092 4.092 11.081 11.838v.34h-18.23v.597c.042 6.745 2.067 12.072 8.374 12.072 4.422 0 7.48-2.43 8.588-6.116h.96c-1.12 4.198-4.806 7.096-10.134 7.096-7.586 0-12.125-5.615-12.125-13.062 0-8.28 5.626-12.765 11.486-12.765zM93.97 19.706v7.054h6.552v.788H93.97V47.11c0 2.867.895 3.602 3.846 3.602.98 0 1.865 0 2.706-.053v.788c-1.193.043-2.418.096-3.75.096-4.837 0-6.755-1.172-6.755-5.711V27.548h-4.39v-.788h4.39v-3.452l3.793-3.602h.16zM110.61 17v15.77c.938-3.847 3.698-6.554 8.087-6.554 5.019 0 9.014 2.462 9.014 9.813V51.5h-3.942V34.794c0-5.37-2.216-7.587-5.71-7.587-4.092 0-7.449 3.154-7.449 10.943V51.5h-3.942V17h3.942zm-69.65 0L55.6 51.5h-4.433l-4.73-11.187-.341-.842-.459-1.087H31.244l-.426 1.087-.299.842L26.087 51.5H25L38.649 17h2.312zm134.228 9.654c.208.002.42.01.811.042v2.909c-.788-.15-1.374-.245-2.216-.245-2.408 0-5.711 1.182-5.711 6.85v15.28h-3.942V26.75h3.942v5.763a9.002 9.002 0 011.577-3.1c1.534-1.971 3.548-2.76 5.327-2.76zm-136.988-5.86l-6.627 16.76h13.702l-7.075-16.76zm32.636 6.115c-4.443 0-6.904 3.452-7.15 10.644h14.044c-.139-7.394-2.408-10.644-6.894-10.644zm75.074 0c-4.443 0-6.905 3.452-7.15 10.644h14.043c-.138-7.394-2.408-10.644-6.893-10.644z"></path></svg>    </a>
+    <figcaption class="s-tagline">Visionary Audio Eyewear</figcaption>
+</figure>
+<figure class="s-container">
+    <a class="s-link" target="_blank" aria-label="Visit Sponsor" href="https://minimalissimo.com/sponsor/ulx?ref=minimalissimo">
+        <!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="200px" height="68px" viewBox="0 0 200 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M55.92675,53 C65.7077917,53 72.0134167,47.387875 72.0134167,36.21825 L72.0134167,15 L65.4402083,15 L65.4402083,36.538875 C65.4402083,43.4335 61.8595,46.960375 56.033625,46.960375 C50.1547083,46.960375 46.5732083,43.21975 46.5732083,36.2712917 L46.5732083,15 L40,15 L40,36.538875 C40,47.3870833 46.1995417,53 55.92675,53 Z M86.1137917,52.4117917 L112.355958,52.4117917 L112.355958,46.4267917 L92.6877917,46.4267917 L92.6877917,15 L86.1137917,15 L86.1137917,52.4117917 Z M125.222917,52.4117917 L132.759583,52.4117917 L142.646708,38.248875 L152.480792,52.4117917 L160.230417,52.4117917 L146.654917,33.2795833 L159.696042,15 L152.159375,15 L142.806625,28.4147917 L133.506917,15 L125.757292,15 L138.851458,33.3856667 L125.222917,52.4117917 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>    </a>
+    <figcaption class="s-tagline">Minimal Office Accessories</figcaption>
+</figure>
+<figure class="s-container">
+    <a class="s-link" target="_blank" aria-label="Visit Sponsor" href="https://minimalissimo.com/sponsor/nuori?ref=minimalissimo">
+        <!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="200px" height="68px" viewBox="0 0 200 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+    <title>Nuori</title>
+    <g id="Nuori" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="NUORI_LOGO" transform="translate(30.230000, 20.729091)" fill="#000000" fill-rule="nonzero">
+            <polygon id="Path" points="18.458451 19.8145458 2.63645486 0.454407611 0 0.454407611 0 26.8189562 3.76683079 26.8189562 3.76683079 7.45881804 19.5888269 26.8189562 22.2220148 26.8189562 22.2220148 0.454407611 18.458451 0.454407611"></polygon>
+            <path d="M53.1766737,16.0967197 C53.1766737,18.5828934 52.575549,20.1249091 51.5203136,21.2944888 C50.0801485,22.7875962 48.0948234,23.6310122 46.0203486,23.6310122 C43.9458739,23.6310122 41.9605488,22.7875962 40.5203836,21.2944888 C39.4651483,20.1249091 38.8640235,18.5828934 38.8640235,16.0967197 L38.8640235,0.454407611 L35.0939257,0.454407611 L35.0939257,15.8974338 C35.0939257,19.4388428 36.1491611,21.8858126 37.844725,23.7381917 C39.9859371,25.9507468 42.9331896,27.1999237 46.0121812,27.1999237 C49.0911728,27.1999237 52.0384252,25.9507468 54.1796374,23.7381917 C55.8752013,21.8923466 56.9304366,19.4453767 56.9304366,15.8974338 L56.9304366,0.454407611 L53.1766737,0.454407611 L53.1766737,16.0967197 Z" id="Path"></path>
+            <rect id="Rectangle" x="136.233169" y="0.454407611" width="3.76683079" height="26.3678156"></rect>
+            <path d="M121.815976,20.6704952 L117.608102,15.0186155 L117.634238,15.0186155 C120.832614,13.7444923 122.479173,11.3073234 122.534712,7.77571534 C122.466105,5.37121624 121.619957,3.4959683 120.025669,2.19570927 C118.696007,1.05553239 116.957973,0.477276488 114.857303,0.477276488 L105.670548,0.477276488 L105.670548,26.8320241 L109.417777,26.8320241 L109.417777,15.4237213 L113.400229,15.4237213 L118.516323,22.5228742 C119.546965,23.9756236 120.897085,25.1726254 122.462838,26.0218125 C123.677246,26.66708 125.012005,27.05416 126.383217,27.1587224 L127.232632,24.2184381 C126.294921,23.9513211 125.388168,23.5855534 124.527571,23.127266 C123.455961,22.5150576 122.530629,21.676685 121.815976,20.6704952 L121.815976,20.6704952 Z M109.401442,12.0129916 L109.401442,3.87820524 L114.79523,3.87820524 C116.043218,3.87820524 117.013511,4.15589876 117.670175,4.70475181 C118.513056,5.32874546 118.954099,6.33824305 118.976968,7.73977853 C119.005479,8.82263832 118.617228,9.87512727 117.89233,10.6800628 C117.160526,11.5360122 116.046484,11.9868557 114.586143,11.9868557 L109.401442,12.0129916 Z" id="Shape"></path>
+            <path d="M72.1251721,3.18887194 C66.361708,8.02527112 65.6100924,16.6181252 70.4463799,22.381683 C75.2826675,28.1452407 83.875507,28.8970228 89.6391584,24.0608469 C95.4028099,19.224671 96.1547584,10.6318461 91.3186941,4.86810093 C88.9967075,2.09934914 85.6696256,0.366808257 82.0698451,0.0518657612 C78.4700647,-0.263076735 74.8926744,0.86539629 72.1251721,3.18887194 Z M87.3689123,21.3532945 C84.242174,23.9775744 79.8424075,24.4597396 76.2215227,22.5749237 C72.6006379,20.6901078 70.4718379,16.8095616 70.8279266,12.7430473 C71.1840153,8.67653295 73.9548542,5.22502892 77.848213,3.99820583 C81.7415718,2.77138274 85.9905785,4.01088706 88.6136327,7.13865375 C92.1897776,11.4068745 91.6389716,17.7637895 87.3819803,21.3532945 L87.3689123,21.3532945 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>    </a>
+    <figcaption class="s-tagline">Fight for Fresh Skincare</figcaption>
+</figure>
+<figure class="s-container">
+    <a class="s-link" target="_blank" aria-label="Visit Sponsor" href="https://minimalissimo.com/sponsor/minimalismlife?ref=minimalissimo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 68"><path d="M60.96 39.663h1.37v-9.71h-1.014L57.49 36.25l-3.828-6.297h-1v9.71h1.37l-.027-6.74 3.056 5.013h.88l3.03-4.97m5.97-3.013h1.36v9.71h-1.36zm5.96 0v9.71h1.36v-7.197l5.94 7.197h1.11v-9.71h-1.37v7.31l-5.97-7.31m11.94 0h1.36v9.71H85.9zm14.25 9.71h1.37v-9.71h-1.01l-3.83 6.297-3.82-6.294h-1v9.71h1.37l-.025-6.74 3.055 5.013h.87l3.027-4.97m9.44-3.07l-4.325 9.76h1.46l1.084-2.5h4.854l1.087 2.5h1.458l-4.33-9.77H109.6zm-1.24 6.01l1.885-4.37 1.887 4.37h-3.77zm17.223 2.52h-5.27v-8.48h-1.35v9.71h6.624m3.77-9.71h1.356v9.71h-1.36zm25.805 9.71h1.37v-9.71h-1.02l-3.828 6.3-3.828-6.3h-1v9.71h1.37l-.03-6.74 3.06 5.01h.87l3.03-4.97m17.64 5.46h-5.27v-8.48h-1.356v9.71h6.625m3.77-9.71h1.357v9.71h-1.354zm5.956 9.71h1.352v-4.18h4.81v-1.25h-4.816v-3.01h5.427v-1.26h-6.78m11.95 4.27v-3.01H200v-1.26h-6.898v9.71H200v-1.257h-5.54V35.48h4.968v-1.257m-59.59.05l-1.362-.244c-1.146-.19-1.798-.64-1.815-1.45-.02-1 .84-1.65 2.15-1.68 1.45-.03 2.22.63 2.45 1.67h1.37c-.3-2.1-2.09-2.88-3.92-2.85-2.12.04-3.51 1.24-3.48 2.97.03 1.38.94 2.29 2.77 2.59l1.65.28c1.19.19 1.65.736 1.66 1.41.02.97-.81 1.613-2.18 1.642-1.6.034-2.59-.725-2.85-2.01h-1.37c.26 2.075 1.84 3.274 4.18 3.225 2.22-.05 3.66-1.265 3.62-3.064-.03-1.47-1.06-2.22-2.85-2.524zM35.03 39.33c-1.988 7.45-8.768 12.953-16.85 12.987C8.507 52.357.634 44.55.595 34.875c-.04-9.672 7.767-17.546 17.44-17.586 9.375-.04 17.06 7.29 17.56 16.55l2.24-3.69c-2.083-8.39-9.68-14.6-18.713-14.56C8.517 15.64-.044 24.27 0 34.87.044 45.49 8.677 54.05 19.282 54c10.604-.044 19.165-8.676 19.12-19.28 0-.298-.01-.593-.024-.886L35.03 39.33z"></path></svg>    </a>
+    <figcaption class="s-tagline">Live More with Less</figcaption>
+</figure>
+<figure class="s-container">
+    <a class="s-link" target="_blank" aria-label="Visit Sponsor" href="https://minimalissimo.com/sponsor/gestalten?ref=minimalissimo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 68"><path d="M26.714 53.004c4.057 0 6.779-2.587 6.779-6.434V22.961h-3.914l-.103 1.366-.098-.107a5.258 5.258 0 00-3.893-1.654h-2.412c-3.967 0-7.073 3.062-7.073 6.975v8.069c0 3.915 3.084 6.977 7.024 6.977h2.903c1.45 0 2.653-.663 3.409-1.22l.101-.076v3.692c0 1.64-1.29 2.376-2.574 2.376H23.42c-1.51 0-2.544-.797-2.717-2.083h-4.058c.288 3.376 3.044 5.728 6.723 5.728h3.346zm-3.495-12.06c-1.801 0-3.162-1.278-3.162-2.973v-8.79c0-1.694 1.389-3.017 3.162-3.017h3.102c1.719 0 3.116 1.267 3.116 2.82v8.987c0 1.695-1.34 2.973-3.116 2.973H23.22zM176.78 26.163c1.775 0 3.164 1.326 3.164 3.017v15.014H184V29.541c0-4.24-2.758-6.977-7.024-6.977h-2.802c-1.362 0-2.744.81-3.454 1.558l-.095.103-.104-1.264h-3.914v21.233h4.056V29.082c0-1.69 1.31-2.92 3.117-2.92h3.001zm-36.263 18.031V40.55h-2.578c-1.73 0-2.764-.991-2.764-2.66V26.557h5.342V22.96h-5.342v-8.09h-4.058v8.09h-3.642v3.597h3.642v11.217c0 3.96 2.52 6.42 6.578 6.42h2.822zm-49.946 0h2.82V40.55h-2.576c-1.733 0-2.765-.991-2.765-2.66V26.557h5.34V22.96h-5.34v-8.09h-4.053v8.09h-3.645v3.597h3.645v11.217c0 3.96 2.516 6.42 6.574 6.42m28.802-.002h4.057V14.001L119.374 14v30.192zm-16.945.395h3.632c1.595 0 2.888-.732 3.554-2.008l.1-.186.197 1.801h3.913V28.36c0-3.358-2.478-5.793-5.892-5.793h-4.676a5.924 5.924 0 00-5.935 5.726h4.053c.087-.907.817-2.13 1.882-2.13h4.676c1.012 0 1.837.801 1.837 1.786v3.663h-7.34c-3.25 0-5.893 2.625-5.893 5.846v1.238c0 2.86 2.068 5.892 5.892 5.892m-1.839-7.634c0-1.014.805-1.837 1.788-1.837h7.392v2.667c0 1.95-1.207 3.161-3.141 3.161h-4.25c-.984 0-1.789-.827-1.789-1.841v-2.15zm-22.919.262c0-3.328-2.27-5.741-5.397-5.741h-5.992c-1.003 0-1.789-.764-1.789-1.738v-1.785c0-1.003.786-1.787 1.789-1.787h4.527c1.383 0 2.084.634 2.084 1.884v.344h4.15v-.133c0-3.14-2.642-5.694-5.892-5.694h-4.723c-3.359 0-5.99 2.46-5.99 5.596v1.325c0 3.197 2.565 5.697 5.844 5.697h5.546c.987 0 1.786.823 1.786 1.834v2.088c0 .996-.837 1.837-1.833 1.837h-5.797c-1.193 0-1.934-.743-1.934-1.935v-.197h-4.102v.084c0 3.193 2.52 5.693 5.743 5.693h6.09c3.303 0 5.89-2.458 5.89-5.593v-1.78zm66.48.35c0 3.938 3.105 7.024 7.071 7.024h3.756c3.263 0 6.633-2.132 6.633-5.695v-.082h-4.104v.147c-.204 1.282-1.116 1.983-2.576 1.983h-3.412c-1.825 0-3.31-1.356-3.31-3.017v-2.813h13.453v-5.52c0-3.941-3.152-7.027-7.172-7.027h-3.164c-3.957 0-7.174 3.196-7.174 7.123v7.877zm4.058-8.383c0-1.693 1.411-3.019 3.21-3.019h2.971c1.804 0 3.212 1.326 3.212 3.019v2.43h-9.393v-2.43zM38.404 37.565c0 3.938 3.106 7.024 7.07 7.024h3.759c3.256 0 6.628-2.132 6.628-5.695v-.082h-4.104v.147c-.206 1.282-1.118 1.983-2.575 1.983H45.77c-1.826 0-3.313-1.356-3.313-3.017v-2.813h13.455v-5.52c0-3.941-3.152-7.027-7.174-7.027h-3.164c-3.955 0-7.17 3.196-7.17 7.123v7.877zm4.053-8.383c0-1.693 1.414-3.019 3.215-3.019h2.966c1.806 0 3.217 1.326 3.217 3.019v2.43h-9.398v-2.43z"></path></svg>    </a>
+    <figcaption class="s-tagline">Publisher of Creative Books</figcaption>
+</figure>
+    </div>
+</section><footer class="footer">
+    <nav class="footer-links border-top">
+
+        <a class="footer-home" href="https://minimalissimo.com/" aria-label="Homepage">
+            <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 52"><path d="M52.8959305 51H46v-7l7-13-.1040695 20zM0 0h7v51H0V0zm24 44l3 8L53 0h-7L24 44z"></path></svg>
+        </a>
+
+        <span class="footer-link-container">
+            <a class="footer-link" href="https://minimalissimo.com/about">Contacts</a>
+            <a class="footer-link" href="https://minimalissimo.com/sponsors">Sponsors</a>
+            <a class="footer-link" href="https://minimalissimo.com/privacy">Privacy</a>
+        </span>
+
+        <span class="footer-link-container footer-socials">
+            <a class="footer-link footer-social" target="_blank" href="https://twitter.com/minimalissimo/" rel="noreferrer">Twitter</a>
+            <a class="footer-link footer-social" target="_blank" href="https://www.instagram.com/minimalissimo/" rel="noreferrer">Instagram</a>
+            <a class="footer-link footer-social" target="_blank" href="https://www.facebook.com/minimalissimo" rel="noreferrer">Facebook</a>
+        </span>
+
+    </nav>
+</footer>
+<script src="Minimalissimo%20%E2%80%93%20Minimalism%20in%20Design_files/search.js"></script>
+</body></html>
